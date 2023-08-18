@@ -1,0 +1,162 @@
+*{
+    font-family: Helvetica;
+    padding:0;
+    margin:0
+    line-height:20px;
+}
+
+#container-navigation{
+    /* background-color:#F1F3FF; */
+}
+
+#hero{
+    padding:25px 136px;
+    height:500px;
+    background-color:#F1F3FF;
+    position:relative;
+}
+
+
+#layer{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+}
+
+.navbar-brand{
+    background-color:#0D28A6;
+    width:100px;
+    height:34px;
+}
+
+#sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    background-color: white;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+
+#layer.active {
+    opacity: 0.4;
+    z-index: 1;
+}
+
+#sidebar.active{
+    opacity: 1;
+    z-index: 2;
+}
+
+.display{
+    display:block;
+}
+
+.none{
+    display:none;
+}
+
+#container-sidebar{
+    z-index:4;
+    background-color:#0D28A6;
+}
+
+#navbarNav ul li{
+    padding:0 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height:20px;
+}
+
+#navbarNav ul li button{
+    margin-top:-5px;
+}
+
+#navbarNav ul .register-button{
+    background-color:#5CB85F;
+    font-weight:700;
+    border-radius:2px;
+}
+
+#navbarNav ul .register-button a{
+    color:white;
+}
+
+#hero-image{
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
+#hero-image img{
+    width:704px;
+    height:407px;
+}
+
+#hero-text{
+    position:absolute;
+    bottom:60px;
+}
+
+#hero-text h1{
+    font-weight:700;
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+#hero-text a{
+    background-color:#5CB85F;
+    display:inline-block;
+    color:white;
+    padding:8px 12px;
+    border-radius:2px;
+    font-weight:700;
+    margin-top:20px;
+}
+
+#main{
+    margin-top:500px;
+    padding:25px 136px;
+    height:500px;
+    position:relative;
+    display:flex;
+    gap:24px;
+}
+
+#main-image img{
+    width:429px;
+    height:428px;
+}
+
+#main-content{
+    width:468px;
+    padding:30px;
+    height:356px;
+}
+
+#main-content ul{
+    list-style-type:none;
+    margin-left:-30px;
+}
+
+#main-content ul li{
+    margin-bottom:20px;
+}
+
+#main-content ul li span{
+    margin-left:10px;
+}
+
+#main h2{
+    font-weight:700;
+    
+}
