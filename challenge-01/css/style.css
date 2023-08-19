@@ -3,6 +3,7 @@
     padding:0;
     margin:0
     line-height:20px;
+    /* border:1px solid black; */
 }
 
 #container-navigation{
@@ -124,7 +125,7 @@
 }
 
 #main{
-    margin-top:500px;
+    margin-top:100px;
     padding:25px 136px;
     height:500px;
     position:relative;
@@ -157,6 +158,184 @@
 }
 
 #main h2{
+    font-weight:700; 
+    margin-bottom:20px;  
+}
+
+#why-us{
+    margin-top:100px;
+    padding:25px 136px;
+}
+
+#why-us h2{
+    font-size:24px;
     font-weight:700;
-    
+    margin-bottom:20px;
+}
+
+#card img{
+    width:32px;
+    margin-left:15px;
+}
+
+#card .card-title{
+    font-size:16px;
+    font-weight:700;
+    margin: 10px 0;
+}
+
+#card .card-text{
+    font-size:14px;
+}
+
+#card-container .card-body{
+    height:120px;
+}
+
+#testimonial {
+    width:832px;
+    margin:auto;
+    text-align:center;
+    margin-top:100px;
+}
+
+#testimonial h2{
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+#testimonial .review{
+    background-color:blue;   
+}
+
+#carouselExample{
+    height:260px;
+}
+
+#carouselExample button img{
+    width:56.77px;
+    height:68px;
+}
+
+.carousel-item div{
+    background-color:#CFD4ED;
+    height:270px;
+    display:flex;
+    border-radius:8px;
+}
+
+.carousel-item div p{
+    margin:auto;
+    font-size:26px;
+    font-weight:700;
+    color:#AEB7E1;
+}
+
+#started {
+    height:326px;
+    background-color: #0D28A6;
+    margin:136px 200px;
+    border-radius:13px;
+    display:flex;
+}
+
+#container-started{
+    margin:auto;
+    text-align:center;
+}
+
+#container-started h2{
+    font-weight:700;
+    font-size:36px;
+    color:white;
+    margin-bottom:20px;
+}
+
+#container-started p{
+    color:white;
+    font-size:14px;
+    margin:auto;
+    font-weight:300;
+    width:468px;
+}
+
+#rentcar{
+    background-color:#5CB85F;
+    color:white;
+    width:140px;
+    padding:10px;
+    margin:auto;
+    border-radius:2px;
+    font-size:14px;
+    font-weight:700;
+    margin-top:30px;
+}
+
+#fqa {
+    margin:136px 200px;
+    height:500px;
+}
+
+#container-fqa{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#container-fqa div{
+    width:50%;
+    height:500px;
+}
+
+#left-fqa h2{
+    font-size:24px;
+    font-weight:700;
+}
+
+#left-fqa p{
+    font-size:14px;
+}
+
+#right-fqa button{
+    width:100%;
+    display:inline-block;
+    margin:10px;
+    border:1px solid black;
+    height:50px;
+    font-size:14px;
+}
+
+#footer{
+    margin:136px 200px 0 200px;
+    height:300px;
+}
+
+#container-footer{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#container-footer div{
+    height:300px;
+    width:calc(100%/4);
+}
+
+#container-footer div p{
+    font-size:14px;
+}
+
+#container-footer div .social{
+    width:100%;
+}
+
+#container-footer div .social img{
+    margin-right:15px;
+    width:32px;
+}
+
+#container-footer #copyright{
+    background-color:#0D28A6;
+    width:100px;
+    height:34px;
+    display:inline-block;
 }
