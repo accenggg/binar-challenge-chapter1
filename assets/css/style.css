@@ -210,6 +210,7 @@
     margin:auto;
     text-align:center;
     margin-top:100px;
+    padding-top:20px;
 }
 
 #testimonial h2{
@@ -288,6 +289,17 @@
 #fqa {
     margin:136px 200px;
     height:500px;
+    padding:20px;
+}
+
+.fqa-button{
+    border:1px solid #D4D4D4;
+    border-radius:4px;
+    overflow:hidden;
+}
+
+.accordion-item{
+    margin-bottom:10px;
 }
 
 #container-fqa{
@@ -420,6 +432,7 @@
         padding:25px;
         margin-bottom:100px;
     }
+
 
     #started{
         margin:20px auto;
