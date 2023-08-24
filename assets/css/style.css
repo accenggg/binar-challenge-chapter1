@@ -295,7 +295,7 @@
     flex-wrap:wrap;
 }
 
-#container-fqa div{
+#container-fqa #left-fqa, #container-fqa #right-fqa{
     width:50%;
     height:500px;
 }
@@ -309,14 +309,28 @@
     font-size:14px;
 }
 
-#right-fqa button{
+#right-fqa {
+    width:100%;
+    /* border:2px solid red; */
+}
+
+#accordionFlushExample{
+    width:100%;
+    /* border:1px solid green; */
+}
+
+.accordion-item{
+    /* border:2px solid blue; */
+}
+
+/* #right-fqa accordionFlushExample{
     width:100%;
     display:inline-block;
     margin:10px;
     border:1px solid black;
     height:50px;
     font-size:14px;
-}
+} */
 
 #footer{
     margin:136px 200px 0 200px;
