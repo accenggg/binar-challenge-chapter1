@@ -6,6 +6,10 @@
     /* border:1px solid black; */
 }
 
+body{
+    overflow-x:hidden;
+}
+
 #container-navigation{
     /* background-color:#F1F3FF; */
 }
@@ -401,10 +405,12 @@
     display:inline-block;
 }
 
+#footer-link p a{
+    text-decoration:none;
+    color:black;
+}
+
 @media only screen and (max-width: 990px) {
-    body{
-        overflow-x:hidden;
-    }
 
     nav {
         margin-bottom:50px;
