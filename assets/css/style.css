@@ -222,6 +222,7 @@
 #carouselExample .testimonial-content{
     display:flex;
     margin:auto;
+    padding-top:10px;
 }
 
 #carouselExample .testimonial-review{
@@ -260,12 +261,6 @@
     border-radius:8px;
 }
 
-/* .carousel-item div p{
-    margin:auto;
-    font-size:26px;
-    font-weight:700;
-    color:#AEB7E1;
-} */
 
 #started {
     height:326px;
@@ -416,6 +411,7 @@
         flex-wrap:wrap;
         padding:25px;
         height:800px;
+        margin:auto;
     }
 
     #main-image img{
@@ -432,6 +428,11 @@
         margin: auto;
     }
 
+    #why-us #card{
+        margin:auto;
+        width:100%;
+    }
+
     #why-us h2, #why-us p{
         text-align:center;
     }
@@ -440,6 +441,19 @@
         width:100vw;
         padding:25px;
         margin:100px auto;
+    }
+
+    #carouselExample .testimonial-review{
+        width:300px;
+    }
+
+    #carouselExample .testimonial-review p{
+        font-size:12px;
+    }
+
+    #carouselExample #image-testi{
+        width:10px;
+        display:inline-block;
     }
 
 
@@ -480,6 +494,7 @@
 
     #footer{
         margin:20px;
+        padding:20px;
     }
 
     #container-footer .connect{
